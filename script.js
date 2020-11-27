@@ -39,7 +39,19 @@ function generatePassword() {
   // Password length user selection
   if (passwordLength >=8 && passwordLength <= 128) {
     console.log(passwordLength);
-    
+    // UpperCase?
+    var useUpper= confirm("Do you want uppercase letters?");
+    console.log(useUpper);
+    // LowerCase?
+    var useLower= confirm("Do you want to use lowercase letters?");
+    console.log(useLower);
+    // Numbers?
+    var useNumber= confirm("Do you want to use numbers?");
+    console.log(useNumber);
+    // SpecialCharacters?
+    var useSpecial= confirm("Do you want to use special characters?");
+    console.log(useSpecial);
+  // Password criteria selection Uppercase letters, Lowercase letters, Numbers, Special characters
 
   
 
