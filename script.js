@@ -28,3 +28,18 @@ var special = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", 
 // Based off selections randomly generates new password
 // Once new password is generated return result to user
 
+// Randomly Generates the password here
+function generatePassword() {
+  // Stores results for new randomly generated password
+  var newPasssword = "";
+  // All user selected criteria Uppercase letters, Lowercase letters, Numbers, Special characters
+  var allChoice = [];
+  var passwordLength = prompt("How many characters would you like to use? (Must be between 8-128 characters)");
+  // Conditions to select new password criteria
+  
+
+
+
+  // Once newpassword is generated return result to user
+  return newPasssword;
+}
