@@ -35,8 +35,23 @@ function generatePassword() {
   // All user selected criteria Uppercase letters, Lowercase letters, Numbers, Special characters
   var allChoice = [];
   var passwordLength = prompt("How many characters would you like to use? (Must be between 8-128 characters)");
-  // Conditions to select new password criteria
+  // Conditions to select new password criteria.
+  // Password length user selection
+  if (passwordLength >=8 && passwordLength <= 128) {
+    console.log(passwordLength);
+    
+
   
+
+
+    return newPasssword;
+  } else {
+    console.log(passwordLength);
+    alert ("Error! Must contain between 8-128 characters.");
+    return("Try again!");
+
+
+  }
 
 
 
