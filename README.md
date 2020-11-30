@@ -7,7 +7,9 @@ Using the HTML & CSS files that were provided. I coded the logic using javascrip
 ### Screenshots
 
 <details>
-<summary></summary>
+  <summary></summary> 
+  
+![03-javascript-homework-demo](https://user-images.githubusercontent.com/64864829/100668178-8603be00-3329-11eb-91cc-534e09249aad.png)
 
 </details>
 
